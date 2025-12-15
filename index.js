@@ -10,7 +10,7 @@ fs.readFile('./day1/data.txt', "utf8", (e, data) => {
   const res = formattedData.map((datum) => {
     return {
       side: datum[0],
-      count: datum.slice(1)
+      count: datum.slice(1),
     }
   });
   let countOfZeros = 0;
