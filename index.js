@@ -45,6 +45,6 @@ fs.readFile('./day1/data.txt', "utf8", (e, data) => {
 
     console.log("le compte est égal à", toCount);
     console.log("le nombre de passage à zéro", countOfZeros);
-    console.log('c le c', c);
+    console.log('c\'est le c', c);
   })
 });
