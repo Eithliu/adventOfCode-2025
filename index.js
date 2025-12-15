@@ -13,6 +13,7 @@ fs.readFile('./day1/data.txt', "utf8", (e, data) => {
       count: datum.slice(1),
     }
   });
+
   let countOfZeros = 0;
   const currentCount = 50;
   let toCount = currentCount;
